@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Shop-final/static/css/main.eecc40ef.css",
+    "main.js": "/Shop-final/static/js/main.16fefd63.js",
+    "static/media/Rectangle (1) (1).png": "/Shop-final/static/media/Rectangle (1) (1).d7fe668a5365ddba0cd8.png",
+    "static/media/preloader.gif": "/Shop-final/static/media/preloader.372b42cf636a06a45d06.gif",
+    "static/media/feedback-photo-9.webp": "/Shop-final/static/media/feedback-photo-9.377b143679b6e2443bd4.webp",
+    "index.html": "/Shop-final/index.html",
+    "main.eecc40ef.css.map": "/Shop-final/static/css/main.eecc40ef.css.map",
+    "main.16fefd63.js.map": "/Shop-final/static/js/main.16fefd63.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eecc40ef.css",
+    "static/js/main.16fefd63.js"
+  ]
+}
