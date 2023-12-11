@@ -1,0 +1,55 @@
+.Product{
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 2px 2px rgb(201, 197, 197);
+}
+
+.Product .moreInfocontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #484646;
+    font-size: 12px;
+    justify-content: center;
+}
+
+.Product .moreInfocontainer .title{
+text-align: center;
+    font-size: 15px;
+    margin:0 0 10px 0;
+}
+
+.Product img{
+    width: 100px;
+    align-self: center;
+    margin: 10px;
+}
+
+.Product img:hover{
+    transform: scale(1.2);
+}
+
+.Product .buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 0 40px;
+}
+.Product .buttons button{
+    text-align: center;
+    background: white;
+    color: grey;
+    border: none;
+}
+
+.Product .buttons button:hover{
+    background: #a6a2a2;
+    color: #ece8e8;
+    padding: 10px;
+    border-radius: 8px;
+}

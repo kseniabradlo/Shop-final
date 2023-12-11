@@ -1,0 +1,55 @@
+.contact input{
+    padding: 10px;
+    border: 1px solid #cccaca;
+}
+
+.contact textarea{
+    padding: 10px;
+    border: 1px solid #cccaca;
+}
+
+.contact p{
+    padding: 15px;
+}
+
+form .formdiv{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-top:30px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.contact .googleMapsContacts{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    padding-top: 50px;
+}
+
+.formGoogle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+}
+
+.formGoogle div{
+    margin: 30px;
+}
+
+.formGoogle div iframe{
+    width: 500px;
+    align-items: center;
+}
+
+
+

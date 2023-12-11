@@ -1,0 +1,25 @@
+.shopmain{
+    color:blue;
+    display: flex;
+}
+
+.shopmain nav{
+    border-right: 1px solid #c7c4c4;
+    padding: 40px 40px 0 0;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    margin: 0 20px;
+}
+
+.shopmain nav a{
+    text-decoration: none;
+    color: #484646;
+    font-size: 15px;
+    margin: 0 0 10px 0;
+}
+
+.shopmain nav a:hover{
+    color: #050505;
+    transform: scale(1.2);
+}

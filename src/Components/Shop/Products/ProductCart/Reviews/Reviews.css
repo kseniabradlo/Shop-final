@@ -1,0 +1,36 @@
+.reviewsMain{
+    padding:10px;
+    margin-top: 20px;
+}
+
+.reviewsMain .addReview{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 2px 2px rgb(201, 197, 197);
+    padding: 50px;
+}
+
+.reviewsMain .otherReviews{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    border-radius: 10px;
+    padding: 0px 50px;
+    gap: 50px;
+}
+
+.addReview input, .textareaReview, .reviewButton{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #c4c0c0;
+    color: gray;
+    width: 300px;
+}
+
+.addReview .reviewButton:hover{
+    background: #484646;
+    color: white;
+    transform: scale(1.05);
+}

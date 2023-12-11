@@ -1,0 +1,11 @@
+.Products{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(350px, 1fr));
+    border-radius: 10px;
+    padding: 20px 50px;
+    overflow: auto;
+    height: 1000px;
+    width: 80%;
+    gap:50px;
+}

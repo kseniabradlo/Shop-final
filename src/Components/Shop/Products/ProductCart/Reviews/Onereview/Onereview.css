@@ -1,0 +1,19 @@
+.onereview{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: start;
+}
+
+.onereview img{
+    width:100px;
+}
+
+.onereview p{
+    text-align: center;
+}
+
+.onereview h4{
+    text-align: center;
+}

@@ -1,0 +1,60 @@
+.limaMain{
+    height: 700px;
+    overflow: hidden;
+    margin: 0;
+}
+
+.textTop{
+    margin: 223px 325px;
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+}
+
+.textTop .imgLyma{
+    z-index: 2;
+}
+
+.bigPictureTop{
+    z-index: 1;
+    color: white;
+    height: 1000px;
+}
+
+.textTop .lymaBtn{
+    background-color: transparent;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: -1100px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    display: block;
+    align-items: center;
+}
+
+.textTop .lymaBtn:hover{
+    border: 2px solid darkviolet;
+    color: darkviolet;
+}
+
+.textTop .topTitle{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 57px;
+    margin-top: -1500px;
+}
+
+.textTop .topText{
+    row-gap: 33px;
+    display: grid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: lighter;
+    max-width: 50%;
+    justify-self: center;
+    margin-top: -1400px;
+    text-align: center;
+}

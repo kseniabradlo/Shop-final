@@ -1,0 +1,72 @@
+.shoppingCartMain{
+    display: flex;
+    flex-direction: column;
+}
+
+.shoppingCartMain .formItems {
+    display: flex;
+    color: white;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px 50px;
+}
+
+.shoppingCartMain .formItems .form{
+    border: 1px solid #bebbbb;
+    padding: 50px 100px;
+    margin: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 2px 2px 2px 2px rgb(201, 197, 197);
+}
+
+.shoppingCartMain .formItems .form input{
+padding: 10px;
+}
+
+.shoppingCartMain button{
+    color: #a6a2a2;
+    background: #ece8e8;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.shoppingCartMain button:hover{
+    background: #a6a2a2;
+    color: #ece8e8;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 15px;
+}
+
+.shoppingCartMain .formItems .items{
+    box-shadow: 2px 2px 2px 2px rgb(201, 197, 197);
+    border: 1px solid #bebbbb;
+    margin: 10px 50px;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
+    border-radius: 10px;
+    padding: 0px 50px;
+    overflow: auto;
+    height: 600px;
+    width: 80%;
+}
+
+.shoppingCartMain .totalSubmit{
+   margin-left: auto;
+    padding: 0 50px 50px 0;
+}
+
+.shoppingCartMain .totalSubmit button{
+    background: #6b6868;
+    color: white;
+    padding: 10px 35px;
+    box-shadow: 2px 2px 2px 2px rgb(201, 197, 197);
+
+}
